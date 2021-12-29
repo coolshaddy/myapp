@@ -7,7 +7,7 @@ before_install:
 
 
 script:
- - docker run coolshaddy/react-test npm test -- --coverage 
+ - docker run coolshaddy/react-test npm run test -- --coverage --watchAll=false 
 
 
 after_success:
